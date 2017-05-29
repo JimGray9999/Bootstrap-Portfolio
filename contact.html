@@ -10,9 +10,32 @@
 </head>
 
 <body>
+
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+
+	    <div class="navbar-header">
+	      <h1 class="navbar-brand">Jim Gray - <small>my portfolio</small></h1>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="index.html">About</a></li>
+	        <li><a href="portfolio.html">Portfolio</a></li>
+	        <li><a href="#contact">Contact</a></li>
+	      </ul>
+	    
+	    </div><!-- /.navbar-collapse -->
+	
+	  </div><!-- /.container-fluid -->
+	
+	</nav>
+
 	<div class="content">
-		<section>
-			<article class="about">
+		<div class="row">
+			<article class="col-md-8 well">
 				<div class="lead">Contact</div>
 				<hr>
 				<!-- contact form info -->
@@ -23,21 +46,24 @@
 					<input type="text" placeholder="Alan.Smithee@nocredit.org" name="email"><br>
 					<span class="glyphicon glyphicon-pencil"></span> Message: <br>
 					<textarea id="messageBox" type="text" name="message"></textarea><br>
-					<input id="submitButton" type="submit" name="Submit">
+					<input class="glyphicon glyphicon-ok" id="submitButton" type="submit" name="Submit">
 				</form>
 			</article>
-		</section>
 		
-		<!-- social media links -->
-		<aside>
-			<div class="lead">Connect With Me</div>
-			<hr>
-			<div class="socialLinks">
-				<a href="https://github.com/JimGray9999" target="_blank"><img src="assets/images/github.png" alt="github" width="50" height="50"></a>
-				<a href="https://www.linkedin.com/in/jgray00/" target="_blank"><img src="assets/images/linkedin.png" alt="linkedin" width="50" height="50"></a>
-				<a href="http://stackoverflow.com/users/5108358/jim-gray?tab=profile" target="_blank"><img src="assets/images/stackoverflow.png" alt="stackoverflow" width="50" height="50"></a>
-			</div>
-		</aside>
-	<footer>&copy; Copyright 2017 Jim Gray</footer>	
+			<!-- social media links -->
+			<aside class="col-md-4 well">
+				<div class="lead">Connect With Me</div>
+				<hr>
+				<div class="socialLinks text-center">
+					<a href="https://github.com/JimGray9999" target="_blank"><img src="assets/images/github.png" alt="github" width="50" height="50"></a>
+					<a href="https://www.linkedin.com/in/jgray00/" target="_blank"><img src="assets/images/linkedin.png" alt="linkedin" width="50" height="50"></a>
+					<a href="http://stackoverflow.com/users/5108358/jim-gray?tab=profile" target="_blank"><img src="assets/images/stackoverflow.png" alt="stackoverflow" width="50" height="50"></a>
+				</div>
+			</aside>
+		</div>
+
+	<div class="row">
+	<footer class="col-md-12 text-center">&copy; Copyright 2017 Jim Gray</footer>
+	</div>
 </body>
 </html>
