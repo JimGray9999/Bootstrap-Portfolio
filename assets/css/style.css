@@ -57,6 +57,8 @@ footer {
 	overflow: auto;
 }
 
+@grid-float-breakpoint: @screen-sm-min;
+
 /*
 .top-container {
 	position: fixed;
