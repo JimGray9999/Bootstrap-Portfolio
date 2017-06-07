@@ -60,4 +60,6 @@ footer {
 	background-color: #777777;
 	color: #fff;
 	overflow: auto;
+	clear: both;
+	z-index: 1;
 }
