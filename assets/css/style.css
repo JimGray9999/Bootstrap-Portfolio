@@ -27,7 +27,7 @@ body {
 	text-align: center;
 }
 
-.template-colors {
+.template-colors, .navbar-brand {
 	background: #4aaaa5;
 	color: #ffffff;
 }
